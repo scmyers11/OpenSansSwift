@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OpenSansSwift"
-  s.version      = "4.0.1"
+  s.version      = "4.0.2"
   s.summary      = "OpenSans font in Swift."
 
   # This description is used to generate tags and improve search results.
