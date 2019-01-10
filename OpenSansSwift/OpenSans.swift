@@ -88,9 +88,9 @@ extension UIFont : UIFontOpenSans {
 open class OpenSans {
 
     /// scale factor for retina devices. Default 2.0
-    open static var retinaScaleFactor: Float = 2.0
+    public static var retinaScaleFactor: Float = 2.0
 
-    open class func registerFonts() -> Bool {
+    public class func registerFonts() -> Bool {
         let fontNames = [
             "OpenSans-Regular",
             "OpenSans-Bold",
